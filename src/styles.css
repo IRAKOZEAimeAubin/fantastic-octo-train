@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.container {
+    display: flex;
+    min-height: 80vh;
+}
+
+.form {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 10, 0.4)
+}
+
+form.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+span.title {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.08rem;
+    font-size: 1.2rem;
+}
+
+input,
+textarea {
+    margin-top: 1rem;
+    padding: 0.2rem 0.4rem;
+    color: #000000;
+    background: #E7ECF4;
+    outline: none;
+    border: #BBC4B9 solid 0.05rem;
+    border-radius: 0.2rem;
+}
+
+button {
+    margin: 1rem 0;
+    padding: 0.2rem 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+    background: rgba(7, 26, 132, .8);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.link span {
+    font-size: 0.8rem;
+}
+
+.link a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(7, 26, 132, 1);
+}
